@@ -43,11 +43,18 @@
 /* Force global photo background (override theme reset/order differences) */
 html {
   background:
-    linear-gradient(180deg, rgba(243, 248, 242, 0.78) 0%, rgba(236, 242, 248, 0.82) 100%),
+    linear-gradient(180deg, rgba(243, 248, 242, 0.34) 0%, rgba(236, 242, 248, 0.4) 100%),
     url("/images/50781C63-9F73-4DF0-A0D5-561049530D70.jpeg") center 12% / cover no-repeat fixed !important;
   background-color: #eef2ed !important;
 }
 
 body {
   background: transparent !important;
+}
+
+.masthead,
+#main .page,
+#main .archive,
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.8) !important;
 }
