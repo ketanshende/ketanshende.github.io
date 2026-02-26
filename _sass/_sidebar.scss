@@ -70,19 +70,20 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
+  display: block;
+  width: 100%;
+  text-align: center;
   // set width only, for non-square avatars
   // height: 36px;
 
   @include breakpoint($large) {
-    display: block;
     width: auto;
     height: auto;
   }
 
   img {
+    display: block;
+    margin: 0 auto 0.75rem;
     width: 175px;
     height: 175px;
     max-width: 100%;
@@ -98,17 +99,15 @@
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
-  line-height: 1;
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 1.2;
+  text-align: center;
 
   @include breakpoint($large) {
-    display: block;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    text-align: center;
   }
 }
 
@@ -136,8 +135,7 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
@@ -225,7 +223,9 @@
   }
 
   a {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
     margin-bottom: 5px;
     padding-right: 5px;
     padding-top: 2px;
