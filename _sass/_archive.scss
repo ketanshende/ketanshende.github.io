@@ -66,6 +66,13 @@
   }
 }
 
+.pub-citation,
+.pub-citation a {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
