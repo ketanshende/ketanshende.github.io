@@ -83,8 +83,8 @@ author:
   name             : "Ketan Shende"
   avatar           : "50781C63-9F73-4DF0-A0D5-561049530D70.jpeg"
   bio              : "Agricultural engineer and applied researcher in precision agriculture"
-  location         : "Salinas, California"
-  employer         : "Independent/Applied Ag R&D"
+  location         :
+  employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "ketanshende@gmail.com"
