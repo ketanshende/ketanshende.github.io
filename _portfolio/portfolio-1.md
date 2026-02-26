@@ -1,7 +1,12 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Wireless Communication for Autonomous Spraying"
+excerpt: "Designed and validated a field-deployed multiagent wireless communication platform for autonomous liquid application systems."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Developed and tested a wireless data communication architecture for autonomous agricultural operations, integrating MIMO/MESH radios with robotic and sensing subsystems.
+
+Key outcomes:
+- Demonstrated high packet delivery performance in multiple field settings
+- Enabled real-time transfer of machine and location data
+- Established a scalable communication approach for multi-agent farm operations
