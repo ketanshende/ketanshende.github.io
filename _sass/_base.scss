@@ -14,11 +14,39 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+  background:
+    radial-gradient(circle at 88% 12%, rgba(104, 144, 88, 0.2) 0%, rgba(104, 144, 88, 0) 42%),
+    radial-gradient(circle at 16% 84%, rgba(181, 148, 96, 0.16) 0%, rgba(181, 148, 96, 0) 46%),
+    linear-gradient(180deg, #f5f2e9 0%, #edf4e6 48%, #edf3f7 100%);
+  background-attachment: fixed;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+}
+
+.masthead,
+#main .page,
+#main .archive,
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#main .page,
+#main .archive,
+.sidebar {
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(45, 72, 43, 0.08);
+}
+
+#main .page,
+#main .archive {
+  padding: 1.1em 1.3em;
+}
+
+.sidebar {
+  padding: 0.9em;
 }
 
 h1, h2, h3, h4, h5, h6 {
