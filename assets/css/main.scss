@@ -44,13 +44,13 @@
 html {
   background:
     linear-gradient(180deg, rgba(243, 248, 242, 0.34) 0%, rgba(236, 242, 248, 0.4) 100%),
-    url("/images/background-award-photo.png") center 46% / cover no-repeat fixed !important;
+    url("/images/background-award-photo.png") center 40% / contain no-repeat fixed !important;
   background-color: #eef2ed !important;
 }
 
 @media (max-width: 48em) {
   html {
-    background-position: center 52% !important;
+    background-position: center 40% !important;
   }
 }
 

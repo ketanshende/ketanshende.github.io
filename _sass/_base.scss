@@ -9,8 +9,8 @@ html {
   background-image:
     linear-gradient(180deg, rgba(243, 248, 242, 0.82) 0%, rgba(236, 242, 248, 0.86) 100%),
     url("/images/background-award-photo.png");
-  background-size: cover;
-  background-position: center 46%;
+  background-size: contain;
+  background-position: center 40%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
