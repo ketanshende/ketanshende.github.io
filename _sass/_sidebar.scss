@@ -73,6 +73,7 @@
   display: block;
   width: 100%;
   text-align: center;
+  margin: 0 auto;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -81,7 +82,7 @@
     height: auto;
   }
 
-  img {
+  .author__avatar-img {
     display: block;
     margin: 0 auto 0.75rem;
     width: 175px;
